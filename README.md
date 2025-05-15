@@ -1,16 +1,52 @@
-## Hi there 👋
+# 👋 Hi, I'm Santhosh — LLM Prototyper in Progress
 
-<!--
-**santhoshnumberone/santhoshnumberone** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a C++/Python developer with a background in machine vision systems, currently transitioning full-time into **LLM prototyping, AI R&D, and offline/Colab-based GenAI workflows**.
 
-Here are some ideas to get you started:
+I'm building public projects using:
+- 🤗 Hugging Face Transformers
+- 🔗 LangChain
+- 🧠 SentenceTransformers
+- 📁 Offline vector databases like FAISS
+- 🧪 Google Colab + lightweight APIs
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🚧 Currently In Progress
+
+- 🎓 **Prompt Engineering for ChatGPT** (Coursera, Vanderbilt) – _[ongoing]_
+- 🧠 **LangChain for LLM App Development** (DeepLearning.AI) – _[queued]_
+- 🔬 **ChatGPT Prompt Engineering for Developers** (OpenAI + DeepLearning.AI) – _[queued]_
+
+---
+
+### 🔨 Coming Soon Projects (Mid-May to June 2025)
+
+| Project Name         | Description |
+|----------------------|-------------|
+| `chat-with-folder`   | Offline chatbot for PDFs + docs using sentence-transformers |
+| `rag-colab-starter`  | Google Colab RAG demo using LangChain + FAISS |
+| `llm-prompt-lab`     | Prompt testing sandbox for offline and API-based models |
+
+---
+
+### 👨‍💻 Past Tech Experience
+
+Before pivoting to GenAI, I spent 5+ years building front-end tools for industrial machine vision systems using:
+- C++ (Gtkmm), Python (PyQt/OpenCV)
+- Custom UI for multi-camera inspection systems
+- Real-time visual debugging and analytics tools
+
+---
+
+### 🧭 What I’m Looking For
+
+I'm currently seeking:
+- 💼 Global remote roles in **LLM prototyping or GenAI R&D**
+- 🔁 Contract/freelance work involving **LangChain, Hugging Face, vector DBs**
+- ⚙️ Rapid prototyping teams like Trilogy, Replit, or stealth AI startups
+
+📩 Reach out if you're hiring, collaborating, or just building cool AI tools. <email> | [LinkedIn](https://www.linkedin.com/in/santhosh-electraanu/)
+
+---
+> 🧪 This GitHub profile documents my transition from machine vision to LLM engineering — every commit brings me closer to my next breakthrough.
+---
