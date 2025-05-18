@@ -13,7 +13,7 @@ I'm building public projects using:
 
 ### 🚧 Currently In Progress
 
-- 🎓 **Prompt Engineering for ChatGPT** (Coursera, Vanderbilt) – _[ongoing]_
+- 🎓 [**Prompt Engineering for ChatGPT** (Coursera, Vanderbilt)](https://coursera.org/share/7197a7bd0ae717ecced1ed917a54f3e8)
 - 🧠 **LangChain for LLM App Development** (DeepLearning.AI) – _[queued]_
 - 🔬 **ChatGPT Prompt Engineering for Developers** (OpenAI + DeepLearning.AI) – _[queued]_
 
