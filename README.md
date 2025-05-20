@@ -38,6 +38,12 @@ Before pivoting to GenAI, I spent 5+ years building front-end tools for industri
 
 ---
 
+## 🚀 Featured Projects
+
+### 🔍 [Image Forgery Detection (Interview Challenge)](https://github.com/yourusername/image-forgery-detection)
+Custom CNN architecture combining Inception and ResNet principles to classify authentic vs. spliced images. Implemented in PyTorch. Includes training graphs and model design. Dataset and weights excluded due to interview constraints.
+
+---
 ### 🧭 What I’m Looking For
 
 I'm currently seeking:
