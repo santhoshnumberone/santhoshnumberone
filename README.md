@@ -1,58 +1,79 @@
-# 👋 Hi, I'm Santhosh — LLM Prototyper in Progress
+# 👋 Hi, I'm Santhosh — Future AI Product Manager, Builder at Heart
 
-I'm a C++/Python developer with a background in machine vision systems, currently transitioning full-time into **LLM prototyping, AI R&D, and offline/Colab-based GenAI workflows**.
+I'm a C++/Python developer and former machine vision engineer, now specializing in **LLM prototyping and GenAI product development**. My focus is on building useful, privacy-conscious AI tools using local/offline workflows — while developing the strategic skills of an AI Product Manager.
 
-I'm building public projects using:
+---
+
+### 🧠 My Current Stack
+
+Building and experimenting with:
 - 🤗 Hugging Face Transformers
-- 🔗 LangChain
-- 🧠 SentenceTransformers
-- 📁 Offline vector databases like FAISS
-- 🧪 Google Colab + lightweight APIs
+- 🔗 LangChain (agents, tools, memory)
+- 🧠 SentenceTransformers for semantic search
+- 🧩 llama.cpp for running quantized local models (GGUF, 4-bit, CPU-optimized)
+- 📁 Lightweight vector databases (FAISS)
+- 🧪 Google Colab + open-source inference pipelines
 
 ---
 
-### 🚧 Currently In Progress
+### 🎯 Career Focus
 
-- 🎓 [**Prompt Engineering for ChatGPT** (Coursera, Vanderbilt)](https://coursera.org/share/7197a7bd0ae717ecced1ed917a54f3e8)
-- 🧠 **LangChain for LLM App Development** (DeepLearning.AI).
-- 🔬 **ChatGPT Prompt Engineering for Developers** (OpenAI + DeepLearning.AI) – _[queued]_
+I’m actively transitioning into:
+- 🚀 **AI Product Management** — focused on LLM tools, workflows, and devtools
+- 💼 High-impact **Prompt Engineering** + rapid prototyping roles
+- 🧩 Teams solving problems in search, reasoning, and agent reliability
 
----
-
-### 🔨 Coming Soon Projects (Mid-May to June 2025)
-
-| Project Name         | Description |
-|----------------------|-------------|
-| `llm-power-search`   | Offline chatbot for PDFs + docs using sentence-transformers |
-| `rag-colab-starter`  | Google Colab RAG demo using LangChain + FAISS |
-| `llm-prompt-lab`     | Prompt testing sandbox for offline and API-based models |
+I bring 5+ years of engineering experience and a product mindset grounded in:
+- Strategic thinking from first principles
+- User empathy + fast feedback cycles
+- Building lean, functional prototypes under real-world constraints
 
 ---
 
-### 👨‍💻 Past Tech Experience
+### 🛠️ In Progress (May–June 2025)
 
-Before pivoting to GenAI, I spent 5+ years building front-end tools for industrial machine vision systems using:
-- C++ (Gtkmm), Python (PyQt/OpenCV)
-- Custom UI for multi-camera inspection systems
-- Real-time visual debugging and analytics tools
+| Project | Purpose |
+|--------|---------|
+| `promptscope` | Local LangChain debugging sandbox (Postman for LLM prompts) |
+| `llm-power-search` | Offline QA chatbot for PDF + legal docs using sentence-transformers |
+| `rag-colab-starter` | Google Colab demo for LangChain RAG on free-tier hardware |
+
+---
+
+### 📚 Learning + Certifications
+
+- 🎓 [Prompt Engineering for ChatGPT (Coursera, Vanderbilt)](https://coursera.org/share/7197a7bd0ae717ecced1ed917a54f3e8)
+- 🧠 LangChain for LLM App Development (DeepLearning.AI)
+- 🔬 ChatGPT Prompt Engineering for Developers (OpenAI) – _queued_
 
 ---
 
-## 🚀 Featured Projects
+### 🔁 Past Experience
 
-### 🔍 [Image Forgery Detection (Interview Challenge)](https://github.com/santhoshnumberone/Image-Forgery-Detection-) -2018
-Custom CNN architecture combining Inception and ResNet principles to classify authentic vs. spliced images. Implemented in PyTorch. Includes training graphs and model design. Dataset and weights excluded due to interview constraints.
-
----
-### 🧭 What I’m Looking For
-
-I'm currently seeking:
-- 💼 Global remote roles in **LLM prototyping or GenAI R&D**
-- 🔁 Contract/freelance work involving **LangChain, Hugging Face, vector DBs**
-- ⚙️ Rapid prototyping teams like Trilogy, Replit, or stealth AI startups
-
-📩 Reach out if you're hiring, collaborating, or just building cool AI tools. <email> | [LinkedIn](https://www.linkedin.com/in/santhosh-electraanu/)
+Before AI, I spent 5+ years building custom UI for industrial machine vision systems:
+- 👁️‍🗨️ Real-time debugging tools for multi-camera inspection
+- ⚙️ C++ (Gtkmm), Python (PyQt/OpenCV)
+- 📊 Visual analytics + front-end integration for edge hardware
 
 ---
-> 🧪 This GitHub profile documents my transition from machine vision to LLM engineering — every commit brings me closer to my next breakthrough.
+
+## 🚀 Highlight: Image Forgery Detection (2018)
+[🔍 GitHub](https://github.com/santhoshnumberone/Image-Forgery-Detection-)  
+Custom CNN combining Inception + ResNet for spliced image classification (PyTorch). Interview challenge project with training logs and model architecture.  
+
+---
+
+### 🤝 Let’s Connect
+
+I'm looking for:
+- 🌍 Global remote AI Product or Prototyping roles
+- 🛠️ Freelance contracts involving LLM apps, LangChain, or Hugging Face
+- 🤖 Fast-paced AI teams like Trilogy, Replit, or stealth-mode startups
+
+📩 <your email> | [LinkedIn →](https://www.linkedin.com/in/santhosh-electraanu/)
+
+---
+
+> 🧪 This GitHub documents my journey from deep tech engineer to LLM-focused product builder — each repo is a step toward shaping the next generation of AI tools.
+
 ---
