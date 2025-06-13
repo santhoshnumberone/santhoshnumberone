@@ -23,7 +23,7 @@ I'm building public projects using:
 
 | Project Name         | Description |
 |----------------------|-------------|
-| `chat-with-folder`   | Offline chatbot for PDFs + docs using sentence-transformers |
+| `llm-power-search`   | Offline chatbot for PDFs + docs using sentence-transformers |
 | `rag-colab-starter`  | Google Colab RAG demo using LangChain + FAISS |
 | `llm-prompt-lab`     | Prompt testing sandbox for offline and API-based models |
 
