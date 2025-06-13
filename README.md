@@ -10,6 +10,7 @@ Building and experimenting with:
 - 🤗 Hugging Face Transformers
 - 🔗 LangChain (agents, tools, memory)
 - 🧠 SentenceTransformers for semantic search
+- 🧩 llama.cpp for running quantized local models (GGUF, 4-bit, CPU-optimized)
 - 📁 Lightweight vector databases (FAISS)
 - 🧪 Google Colab + open-source inference pipelines
 
