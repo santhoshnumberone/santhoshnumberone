@@ -40,6 +40,26 @@ My focus: building lean, reproducible, zero-API workflows — ideal for devs, ti
 
 ---
 
+## 📖 Featured Series
+### 13" 8GB MacBook M1 pro. No Cloud.No API. Decent speed. Usable LLM On Zero Budget?
+
+Running usable LLMs locally — on just an 8GB MacBook M1 Pro — without APIs, GPUs, or cloud credits?
+
+I'm writing a 4-part Medium series that shares the full journey:
+- What breaks, what works, and how far you can push llama.cpp on low RAM
+- Models tested: Mistral, Phi, TinyLlama, Zephyr
+- Benchmarks, thread tuning, quant formats, and real-world tradeoffs
+
+🧠 Ideal for devs trying to build without burning their wallets or sending data to someone else’s server.
+
+🔗 **PART 1/4** [Can anything actually run LLMs offline — on just an 8GB MacBook M1 Pro?](https://medium.com/@santhoshnumber1/part-1-13-8gb-macbook-m1-pro-no-cloud-no-api-decent-speed-usable-llm-on-zero-budget-71a84485bfef)
+
+🔗 **PART 2/4** [llama.cpp is in the spotlight — it promises local LLMs. But how usable is it, really?](https://medium.com/@santhoshnumber1/part-2-4-13-8gb-macbook-m1-pro-no-cloud-no-api-decent-speed-usable-llm-on-zero-budget-48e1837468d8)
+
+*(Parts 3–4 coming soon: install guides, quant tricks, benchmark results, and real usability tests)*
+
+---
+
 ## 🔎 The Insight  
 Local-first LLMs give you full control over reliability, iteration speed, and customization.  
 They shift AI from **a rented service** to **a tool you actually own** — and most importantly,  
