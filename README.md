@@ -56,7 +56,9 @@ I'm writing a 4-part Medium series that shares the full journey:
 
 🔗 **PART 2/4** [llama.cpp is in the spotlight — it promises local LLMs. But how usable is it, really?](https://medium.com/@santhoshnumber1/part-2-4-13-8gb-macbook-m1-pro-no-cloud-no-api-decent-speed-usable-llm-on-zero-budget-48e1837468d8)
 
-*(Parts 3–4 coming soon: install guides, quant tricks, benchmark results, and real usability tests)*
+🔗 **PART 3/4** [Phi-3-mini takes center stage after Part 2 — now let’s get into the nitty-gritty.](https://medium.com/@santhoshnumber1/part-3-4-13-8gb-macbook-m1-pro-no-cloud-no-api-decent-speed-usable-llm-on-zero-budget-635a8bf30efc)
+
+🔗 **PART 4/4** [From Part 2 & 3: llama.cpp(cli) + phi-3-mini = a powerful local LLM — so… can we make it scale?](https://medium.com/@santhoshnumber1/part-4-4-13-8gb-macbook-m1-pro-no-cloud-no-api-decent-speed-usable-llm-on-zero-budget-e5d54b9e6746)
 
 ---
 
