@@ -1,4 +1,7 @@
-# 👋 Hi, I'm Santhosh — Local-First AI Builder | LLM Engineer | Product Thinker
+# 👋 Hi, I'm Santhosh — AI DevTool Specialist | llama.cpp · LangChain · RAG | Mac M1 LLM Optimizer
+
+🧠 I build privacy-first AI tools that run offline — even on 8GB RAM Apple Silicon.  
+GGUF · LangChain · CLI/RAG pipelines. No cloud. No API. No compromises.
 
 ---
 
@@ -88,6 +91,17 @@ More tools and ideas in progress — and I’m just getting started. 😄
 - ⚙️ Python · CLI tooling · Local inference pipelines  
 - 🧪 PyTorch · TensorFlow (CV/ML background)  
 - 🧰 C++ (Gtkmm), Python (PyQt/OpenCV) for earlier UI systems
+
+---
+
+## 🔁 In Short  
+🧠 I specialize in local-first LLM devtools — built for privacy, reproducibility, and edge performance.
+
+If you're building something that needs:
+- ✅ Full offline support
+- ✅ Reliable RAG pipelines on low-spec devices
+- ✅ Streamlit/CLI/PyQt interfaces for local AI
+- ✅ Mac M1/M2 performance optimization for LLMs
 
 ---
 
