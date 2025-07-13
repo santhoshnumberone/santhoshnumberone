@@ -118,7 +118,7 @@ I began my career as a Computer Vision developer — building tools that combine
 
 Projects included:
 - 🥔 **Size & color–based potato sorting system** — image processing algorithm deployed via Google Cloud Functions
-- 🧪 **Custom designed CNN trained from scratch** on a local machine for spliced image forgery detection (600+ epochs) [training loss](https://plotly.com/~santhoshnumberone/9/#/) & [training accuracy](https://plotly.com/~santhoshnumberone/11/#/)
+- 🧪 **[Custom designed CNN trained from scratch](https://github.com/santhoshnumberone/Image-Forgery-Detection-)** on a local machine for spliced image forgery detection (600+ epochs) [training loss](https://plotly.com/~santhoshnumberone/9/#/) & [training accuracy](https://plotly.com/~santhoshnumberone/11/#/)
 - 👁️ **Early glaucoma detection prototype** — built on Raspberry Pi with OpenCV + VR headset integration
 - 🚗 **Real-time vehicle flow analysis** — 24-hour video inference across lanes on AWS servers using YOLO
 - 🧰 **Internal OpenCV tool replication** — led a team replicating a core analytics tool for reuse
