@@ -75,7 +75,7 @@ That’s what excites me.
 | Project | Purpose |
 |--------|---------|
 | `llm-power-search` | ✅ Local RAG pipeline that answers legal questions about open-source licenses using LangChain + FAISS + llama.cpp |
-| `inference-benchmark` *[Running Mistral 7B Locally on MacBook M1 Pro: Benchmarking Llama.cpp Python Inference Speed and GPU Trade-offs](https://medium.com/@santhoshnumber1/running-mistral-7b-locally-on-macbook-m1-pro-benchmarking-llama-cpp-89631f6c04b6)* | 📈 Performance comparison of 4-bit models on Mac M1 using llama.cpp, including speed vs GPU benchmarks |
+| *[Running Mistral 7B Locally on MacBook M1 Pro: Benchmarking Llama.cpp Python Inference Speed and GPU Trade-offs](https://medium.com/@santhoshnumber1/running-mistral-7b-locally-on-macbook-m1-pro-benchmarking-llama-cpp-89631f6c04b6)* | 📈 Performance comparison of 4-bit models on Mac M1 using llama.cpp, including speed vs GPU benchmarks |
 
 More tools and ideas in progress — and I’m just getting started. 😄
 
@@ -118,7 +118,7 @@ I began my career as a Computer Vision developer — building tools that combine
 
 Projects included:
 - 🥔 **Size & color–based potato sorting system** — image processing algorithm deployed via Google Cloud Functions
-- 🧪 **Custom designed CNN trained from scratch** on a local machine for spliced image forgery detection (600+ epochs)
+- 🧪 **Custom designed CNN trained from scratch** on a local machine for spliced image forgery detection (600+ epochs) [training loss](https://plotly.com/~santhoshnumberone/9/#/) & [training accuracy](https://plotly.com/~santhoshnumberone/11/#/)
 - 👁️ **Early glaucoma detection prototype** — built on Raspberry Pi with OpenCV + VR headset integration
 - 🚗 **Real-time vehicle flow analysis** — 24-hour video inference across lanes on AWS servers using YOLO
 - 🧰 **Internal OpenCV tool replication** — led a team replicating a core analytics tool for reuse
