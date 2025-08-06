@@ -42,29 +42,6 @@ I flipped the stack — **vocal to local** — and started building fully local,
 My focus: building lean, reproducible, zero-API workflows — ideal for devs, tinkerers, and anyone building in bandwidth or cost-constrained environments.
 
 ---
-
-## 📖 Featured Series
-### 13" 8GB MacBook M1 pro. No Cloud.No API. Decent speed. Usable LLM On Zero Budget?
-
-Running usable LLMs locally — on just an 8GB MacBook M1 Pro — without APIs, GPUs, or cloud credits?
-
-I'm writing a 4-part Medium series that shares the full journey:
-- What breaks, what works, and how far you can push llama.cpp on low RAM
-- Models tested: Mistral, Phi, TinyLlama, Zephyr
-- Benchmarks, thread tuning, quant formats, and real-world tradeoffs
-
-🧠 Ideal for devs trying to build without burning their wallets or sending data to someone else’s server.
-
-🔗 **PART 1/4** [Can anything actually run LLMs offline — on just an 8GB MacBook M1 Pro?](https://medium.com/@santhoshnumber1/part-1-13-8gb-macbook-m1-pro-no-cloud-no-api-decent-speed-usable-llm-on-zero-budget-71a84485bfef)
-
-🔗 **PART 2/4** [llama.cpp is in the spotlight — it promises local LLMs. But how usable is it, really?](https://medium.com/@santhoshnumber1/part-2-4-13-8gb-macbook-m1-pro-no-cloud-no-api-decent-speed-usable-llm-on-zero-budget-48e1837468d8)
-
-🔗 **PART 3/4** [Phi-3-mini takes center stage after Part 2 — now let’s get into the nitty-gritty.](https://medium.com/@santhoshnumber1/part-3-4-13-8gb-macbook-m1-pro-no-cloud-no-api-decent-speed-usable-llm-on-zero-budget-635a8bf30efc)
-
-🔗 **PART 4/4** [From Part 2 & 3: llama.cpp(cli) + phi-3-mini = a powerful local LLM — so… can we make it scale?](https://medium.com/@santhoshnumber1/part-4-4-13-8gb-macbook-m1-pro-no-cloud-no-api-decent-speed-usable-llm-on-zero-budget-e5d54b9e6746)
-
----
-
 ## 🔎 The Insight  
 Local-first LLMs give you full control over reliability, iteration speed, and customization.  
 They shift AI from **a rented service** to **a tool you actually own** — and most importantly,  
