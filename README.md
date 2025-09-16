@@ -57,7 +57,6 @@ That’s what excites me.
 | `llm-power-search` | ✅ Local RAG pipeline that answers legal questions about open-source licenses using LangChain + FAISS + llama.cpp |
 | *[Running Mistral 7B Locally on MacBook M1 Pro: Benchmarking Llama.cpp Python Inference Speed and GPU Trade-offs](https://medium.com/@santhoshnumber1/running-mistral-7b-locally-on-macbook-m1-pro-benchmarking-llama-cpp-89631f6c04b6)* | 📈 Performance comparison of 4-bit models on Mac M1 using llama.cpp, including speed vs GPU benchmarks |
 
-More tools and ideas in progress — and I’m just getting started. 😄
 
 ---
 
