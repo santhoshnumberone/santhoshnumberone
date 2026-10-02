@@ -1,139 +1,33 @@
-# 👋 Hi, I'm Santhosh — AI DevTool Specialist | llama.cpp · LangChain · RAG | Mac M1 LLM Optimizer
+# Santhosh Dhaipule Chandrakanth
 
-🧠 I build privacy-first AI tools that run offline — even on 8GB RAM Apple Silicon.  
-GGUF · LangChain · CLI/RAG pipelines. No cloud. No API. No compromises.
+Applied AI engineer. I build the deterministic layer around probabilistic LLMs — local inference, structured-output validation, evaluation harnesses — in Python and C++.
 
----
+## Found two root-cause bugs in llama.cpp's constrained decoding
 
-## 🧩 The Pain  
-_Almost every dev wants to experiment with LLMs — but experimentation means trial and error.
-And trial and error comes at a cost._
+Benchmarking small LLMs as structured edit-planners under an 8GB Apple Silicon budget, every model I tested was failing real edit tasks while still scoring 10/10 on JSON-schema validity. Traced it to llama.cpp itself, not the models:
 
-_With cloud APIs, those costs compound fast — every prompt, every test run, every misstep eats into time and money.
-Latency, usage caps, and vendor lock-in only add more friction._
+- A grammar requiring an optional key to be written after required keys: 0/69 success with that field present vs. 23/23 without the ordering constraint.
+- An empty `{}` JSON schema read as "any object" instead of "no object": 1/31 vs 70/70 depending which side of the bug a test landed on.
 
-_Whether you're a solo builder, startup, or enterprise — **cost sensitivity is real**.  
-And if you're working on a tight setup (like I was, with 8GB RAM and no GPU), it's not just inconvenient — it's a hard blocker to progress._
+Fixed both, added a regression canary and a schema linter, reran the full suite.
+→ [harness, raw runs, result hashes](https://github.com/santhoshnumberone/mutation-planner-harness)
 
----
+## Other work
 
-## 💥 The Breaking Point  
-Anyone building on an 8GB MacBook is bound to hit a wall fast.  
-Every prototype turns into a budgeting decision.
+**License-aware RAG** — fully offline pipeline (LangChain, FAISS, sentence-transformers) answering compliance questions across 20+ open-source licenses on a local Mistral-7B (Q3_K_M). Swept GPU layer offloading (0–64 layers): 3x speedup, no quality loss.
+→ [repo](https://github.com/santhoshnumberone/LLM-Power-Search-for-Open-Source-Licensing-Navigator)
 
-And for those of us who care about privacy or need offline reliability, cloud APIs aren’t just inconvenient — they’re a blocker.  
-For learners like me, it wasn’t just about building — it was about *getting started at all*.
+**Inference backend benchmark** — llama.cpp vs. ctransformers on matched prompts and token lengths. Metal-accelerated llama.cpp ran ~30% faster.
+→ [writeup](https://medium.com/@santhoshnumber1/benchmarking-ctransformers-vs-llama-cpp-local-llm-inference-on-m1-macbook-with-zephyr-mistral-86264805d16b))
 
----
+**Forgery-detection CNN** — designed from scratch (Inception/ResNet-inspired), trained on 1,800+ authentic/spliced images, ~600 epochs.
+→ [repo](https://github.com/santhoshnumberone/Image-Forgery-Detection-) · [training loss]<img width="1419" alt="Screenshot 2025-05-20 at 1 17 08 PM" src="https://github.com/user-attachments/assets/63bba571-51f4-406c-a8ea-aa123195b163" /> · [training accuracy]<img width="1421" alt="Screenshot 2025-05-20 at 1 19 14 PM" src="https://github.com/user-attachments/assets/5a9ecc5c-6a77-4866-bd49-dd346bc323a2" />
 
-## 🛠️ The Build
+## Stack
 
-_Harvey Specter once said:_  
-> “When you're backed against the wall, break the goddamn thing down.”
+Python, C++ · PyTorch, TensorFlow, OpenCV · LangChain, FAISS, llama.cpp, GGUF quantization · Docker, AWS
 
-So I did.
-I flipped the stack — **vocal to local** — and started building fully local, open-source LLM tools using:
-- 🔗 **LangChain** (retrievers, prompts, agents, memory)
-- 🧠 **FAISS** for vector search
-- 🤗 **Hugging Face Transformers + SentenceTransformers**
-- 🧩 **llama.cpp** with 4-bit GGUF models (Mistral, Zephyr)  
-- 💡 Custom prompt logic, fallback flows, and user-driven CLI UX
+## Contact
 
-My focus: building lean, reproducible, zero-API workflows — ideal for devs, tinkerers, and anyone building in bandwidth or cost-constrained environments.
-
----
-## 🔎 The Insight  
-Local-first LLMs give you full control over reliability, iteration speed, and customization.  
-They shift AI from **a rented service** to **a tool you actually own** — and most importantly,  
-they **bring the cost down to zero**.
-
-That’s what excites me.
-
----
-
-## 📊 The Proof  
-| Project | Purpose |
-|--------|---------|
-| `llm-power-search` | ✅ Local RAG pipeline that answers legal questions about open-source licenses using LangChain + FAISS + llama.cpp |
-| *[Running Mistral 7B Locally on MacBook M1 Pro: Benchmarking Llama.cpp Python Inference Speed and GPU Trade-offs](https://medium.com/@santhoshnumber1/running-mistral-7b-locally-on-macbook-m1-pro-benchmarking-llama-cpp-89631f6c04b6)* | 📈 Performance comparison of 4-bit models on Mac M1 using llama.cpp, including speed vs GPU benchmarks |
-
-
----
-
-## 🧠 Tech Stack
-
-- 🔗 LangChain · FAISS · SentenceTransformers  
-- 🧩 llama.cpp · Hugging Face · GGUF 4-bit models  
-- ⚙️ Python · CLI tooling · Local inference pipelines  
-- 🧪 PyTorch · TensorFlow (CV/ML background)  
-- 🧰 C++ (Gtkmm), Python (PyQt/OpenCV) for earlier UI systems
-
----
-
-## 🔁 In Short  
-🧠 I specialize in local-first LLM devtools — built for privacy, reproducibility, and edge performance.
-
-If you're building something that needs:
-- ✅ Full offline support
-- ✅ Reliable RAG pipelines on low-spec devices
-- ✅ Streamlit/CLI/PyQt interfaces for local AI
-- ✅ Mac M1/M2 performance optimization for LLMs
-
----
-
-## 🚀 I’m Open To:
-- ✅ Remote roles in **LLM prototyping** or **AI devtools**  
-- ✅ **AI Product Management** roles focused on user-first GenAI tools  
-- ✅ OSS / SaaS collabs with a focus on usability, cost-efficiency, and impact  
-
-📩 <santhoshnumber1@gmail.com>  
-🔗 [LinkedIn →](https://www.linkedin.com/in/santhosh-electraanu/)
-
----
-
-## 🎓 Learning & Certifications
-
-- [✔️ Prompt Engineering for ChatGPT (Coursera)](https://coursera.org/share/7197a7bd0ae717ecced1ed917a54f3e8)  
-- [✔️ Trustworthy Generative AI (Vanderbilt)](https://coursera.org/share/6c5944df9f15f37a9082aebf20d7ca6a)  
-- [✔️ ChatGPT Advanced Data Analysis (Vanderbilt)](https://coursera.org/share/8ae368d556e85dcf809a107b823d212d) 
-- 🧠 LangChain Dev Course (DeepLearning.AI)  
-- 🔬 ChatGPT Prompt Engineering for Developers (OpenAI)
-
----
-
-## 🔁 My Journey So Far
-
-### 📍 Where I Started  
-I began my career as a Computer Vision developer — building tools that combined low-level image processing with product intuition.
-
-Projects included:
-- 🥔 **Size & color–based potato sorting system** — image processing algorithm deployed via Google Cloud Functions
-- 🧪 **[Custom designed CNN trained from scratch](https://github.com/santhoshnumberone/Image-Forgery-Detection-)** on a local machine for spliced image forgery detection (600+ epochs) [training loss](https://plotly.com/~santhoshnumberone/9/#/) & [training accuracy](https://plotly.com/~santhoshnumberone/11/#/)
-- 👁️ **Early glaucoma detection prototype** — built on Raspberry Pi with OpenCV + VR headset integration
-- 🚗 **Real-time vehicle flow analysis** — 24-hour video inference across lanes on AWS servers using YOLO
-- 🧰 **Internal OpenCV tool replication** — led a team replicating a core analytics tool for reuse
-- 🧑‍💻 **Full UI/UX design** for embedded systems — owned v1 + v2 flow for industrial machine vision tool
-
----
-
-### 🔄 Where I Am Now  
-From the start, I've owned not just features — but the full flow: 
-`problem` → `interface` → `model` → `deployment`.
-That mindset now drives my transition into:
-- ✅ **LLM prototyping**
-- ✅ **Offline AI tooling**
-- ✅ **End-to-end product thinking**
-
-What began as an **offline learning constraint** turned out to be a **blessing** — forcing me to focus on **privacy**, **full ownership**, and **infinite iteration** where imagination was the only limit (and system RAM the only bottleneck). 
-
-That journey led to **zero-cost**, local-first tools that work for **solo devs**, **startups**, and **eventually even cost-sensitive enterprises**.
-
-It’s no longer just about building features — I’m evolving into a product manager who takes full ownership, end to end.
-
----
-
-> 🧪 From a young boy who believed that — unlike most things in life — **code usually does exactly what you want**...  
-to early repos here that might not mean much to others,  
-but marked real milestones for me.  
-And soon: tools that I hope will matter — not just to me, but to many of us building with constraints, creativity, and purpose.
-
+Open to Applied AI Engineer / AI Systems Engineer roles — remote, global, or Bangalore onsite.
+santhoshnumber1@gmail.com · [LinkedIn](https://www.linkedin.com/in/santhoshnumberone)
